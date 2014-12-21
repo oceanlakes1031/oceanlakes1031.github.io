@@ -1,0 +1,15 @@
+{
+  "name": "1031",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zeptojs": "~1.1.6",
+    "magnific-popup": "~1.0.0"
+  }
+}

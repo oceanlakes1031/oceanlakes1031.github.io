@@ -1,0 +1,14 @@
+{
+  "name": "OceanLakes1031",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-stylus": "*",
+    "grunt-contrib-jade": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-imagemin": "*"
+  }
+}

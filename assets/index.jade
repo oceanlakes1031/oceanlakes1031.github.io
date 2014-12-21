@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    title Ocean Lakes 1031
+    link(rel="stylesheet", href="http://fonts.googleapis.com/css?family=Pacifico")
+    link(rel="stylesheet", href="css/dist.css?1")
+  body
+    .banner
+        img(src="photos/banner-bg-2.jpg")
+        h1 
+          | OceanLakes
+          span 1031
+    .container
+      .section
+        h2.special
+          span $150,000
+          | Ocean Lakes Site #1031
+        p
+          | Ocean Lakes 1031 has been in our family for more than two decades and
+          | we'd like it to become part of yours. Ocean Lakes is a wonderful
+          | departure from the downtown scene and is a great place to spend time with 
+          | your family. Just a short walk from the beach (highlighted in blue on 
+          | <a href="photos/map.jpg" target="_blank">this map</a>), this house is 
+          | available with 2 bedrooms, 2 bathrooms, a partial wrap-around porch, and a 
+          | storage building. 
+        p
+          | Just a short walk from the beach and a short drive to all the area attractions, 
+          | this house is the perfect location to create memories. Take a look at some of the 
+          | photos below and get in touch below. 
+        
+      .section.photos
+        - var n = 1
+        while n <= 11
+          a(href='photos/photo-' + n + '.JPG').photo.gallery-item
+            .inner
+              img(src='photos/photo-' + n + '.JPG', alt="Photo")
+              - n++
+      .section
+        h2 Get In touch
+        p.links
+          | We'd love to hear from you. You can reach Robert &amp; Sylvia by phone or email, 
+          | listed below
+        ul
+          li 
+            b Phone
+            | &#56;&#54;&#52;&#46;&#56;&#55;&#56;&#46;&#54;&#55;&#51;&#54;
+          li
+            b Email
+            | <a href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#58;&#116;&#x68;&#x65;&#x64;&#111;&#118;&#101;&#114;&#x73;&#x36;&#x37;&#x33;&#x36;&#x40;&#99;&#104;&#x61;&#114;&#116;&#x65;&#x72;&#x2e;&#110;&#x65;&#116;">&#x74;&#104;&#x65;&#100;&#x6f;&#118;&#101;&#x72;&#x73;&#54;&#x37;&#51;&#54;&#x40;&#x63;&#104;&#97;&#x72;&#x74;&#101;&#114;&#x2e;&#x6e;&#101;&#116;</a>
+
+    script(type="text/javascript",src="js/app.js")
+
+
+      
